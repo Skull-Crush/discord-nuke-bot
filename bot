@@ -8,7 +8,10 @@ import asyncio
 import time
 import logging
 
-client = commands.Bot(command_prefix='$') #This Is The Prefix, Feel Free To Change It Anytime
+intents = discord.Intents.default()
+intents.members = True  # required for member-related commands
+
+client = commands.Bot(command_prefix='$', intents=intents)
 
 client.remove_command("help")
 
@@ -144,4 +147,4 @@ async def dab(ctx):
     await client.add_roles(user, role)
     print ("You're in buddy, now don't fuck it up")
 
-client.run("TOKEN") #Bot's Token Code Goes Here
+client.run("Token") #Bot's Token Code Goes Here
