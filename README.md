@@ -22,4 +22,5 @@
 - Enjoy Nuking!
 
 **IF YOU ALREADY HAD DISCORD.PY INSTALLED ON A DIFFERENT VERSION OF PYTHON, YOU GONNA HAVE TO RE-INTALL IT**
-On a side note endable Privileged Gateway Intents in your bots settings in order for the script to function
+
+**On a side note endable Privileged Gateway Intents in your bots settings in order for the script to function**
